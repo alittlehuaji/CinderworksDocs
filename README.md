@@ -2,6 +2,8 @@
 
 本项目使用 [Docusaurus](https://docusaurus.io/) 构建
 
+> WIP
+
 ## Installation
 
 ```bash
