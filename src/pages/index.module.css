@@ -155,8 +155,9 @@
 .featureSection,
 .infoSection,
 .startSection {
-  max-width: 1120px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
   padding: 6.5rem max(1.5rem, calc((100vw - 1120px) / 2));
 }
 
@@ -246,9 +247,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
   align-items: center;
-  max-width: none;
-  padding-right: max(1.5rem, calc((100vw - 1120px) / 2));
-  padding-left: max(1.5rem, calc((100vw - 1120px) / 2));
   background: #2c1e18;
 }
 
@@ -302,8 +300,8 @@
 }
 
 .startSection {
-  padding-top: 6.8rem;
-  padding-bottom: 6.8rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   text-align: center;
 }
 
